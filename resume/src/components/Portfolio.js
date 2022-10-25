@@ -20,8 +20,7 @@ const Portfolio = () => {
               return (
                 <div key={index} className="port-desc-box">
                   <div className="title-link">
-                    <h3>Title: <a href="https://github.com/willhwpark/hometown-blog">
-                      {project.title}
+                    <h3>Title: <a href="https://github.com/willhwpark/hometown-blog" target="_blank" rel="noreferrer" style={{ color: "#0e387a" }}>{project.title}
                     </a></h3>
                   </div>
                   <div className="portfolio-lang-title">
